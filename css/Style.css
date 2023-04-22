@@ -1,0 +1,93 @@
+a {
+    color: rgb(70, 129, 255);
+    text-decoration: none;
+}
+
+div {
+    display: inline-block;
+    border: 2px solid rgb(70, 129, 255);
+    padding: 8px 8px 8px 8px;
+    margin: 8px 8px 8px 8px;
+}
+
+div h3 {
+    color: rgb(70, 129, 255);
+}
+
+div p {
+    color: black;
+}
+
+body {
+    background-color: rgb(166, 167, 168);
+    margin: 0px 0px 0px 0px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 40px 32px 40px 32px;
+}
+
+header {
+    background-color: rgb(60, 83, 151);
+    padding: 40px 32px 40px 32px;
+    height: 400px;
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+header.town{
+    background-image: url(../img/headerBGTown.png);
+}
+header.car{
+    background-image: url(../img/headerBGCar.png);
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 32px 32px 32px 32px;
+}
+img{
+    width: 100%;
+    max-width: 800px;
+}
+.link-page div:hover{
+    background-color: rgb(182, 228, 255);
+    display: inline-block;
+}
+.link-page div {
+    transition: 0.5s;
+}
+button{
+    display: inline-block;
+    background-color: rgb(27, 136, 231);
+    transition: 0.3s;
+    color: aliceblue;
+    border: 1px solid rgb(27, 136, 231);
+    padding: 8px 8px 8px 8px;
+    margin: 0px 0px 8px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(27, 136, 231);
+}
+input{
+    border: 1px solid rgb(27, 136, 231);
+    padding: 8px;
+    width: 100%;
+    max-width: 240px;
+    margin: 0px 0px 8px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
