@@ -47,6 +47,12 @@ header.town{
 header.car{
     background-image: url(../img/headerBGCar.png);
 }
+header.animals{
+    background-image: url(../img/headerBGEnimals.png);
+}
+header.plants{
+    background-image: url(../img/headerBGPlants.png);
+}
 
 footer{
     background-color: black;
